@@ -30,5 +30,8 @@ This project use a fictional company, Northstar Medical Group, to simulate real-
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
+* Designed department-based OU structure (Finance, HR, IT, Operations)
+* Implemented RBAC with security group mapped to each department
+* Provisioned 15 users accounts with consistent naming conventios and attribute standards
 * Solved a mock ticket where a user was given the incorrect access
 * Fully documented all my steps
