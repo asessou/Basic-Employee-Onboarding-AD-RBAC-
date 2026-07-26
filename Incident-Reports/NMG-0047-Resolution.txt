@@ -1,0 +1,16 @@
+Incident Report
+Ticket ID: NMG-0047
+Date: 04/11/2026
+Incident Summary: Jane Cooper, a new hire in the human resources (HR) department, was able to successfully log in to her domain account but could not access the HR shared resources. She also reported that her desktop environment differed from the other HR team members.
+
+Investigation: An investigation of Active Directory revealed that Jane Cooper had been  mistakenly placed in the Operations Organization Unit during account provisioning. As a result, she was assigned to Operations security group instead of the HR security group. This created her to inherit the incorrect permissions and desktop policies.
+
+Corrective Action: The following actions were taken to resolve the issue:
+                 - Moved Jane Cooper's user account from the Operations OU to the HR OU
+                 - Removed her membership from the Operations security group
+                 - Added her to the HR security group
+                 - Verified that Coup Policy updates were successfully applied
+
+Resolution: After the changes were made, Jane Cooper was able to access all HR shared resources successfully. Her desktop environment was updated to match the standard configuration used by the HR department, conforming that the correct permissions and group policy setting had been applied.
+
+Root Cause: This issue was caused by an account provisioning error in which the new hire was assigned to the wrong Organization Unit and the security group during creation.
