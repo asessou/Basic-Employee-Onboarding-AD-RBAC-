@@ -11,7 +11,7 @@ This project use a fictional company, Northstar Medical Group, to simulate real-
 
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://www.loom.com/share/a910fc15448a4f809fd93200612b063e
 
 ## Tools Used
 * Windows Server 2022
